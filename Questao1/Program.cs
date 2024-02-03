@@ -14,7 +14,7 @@ namespace Questao1 {
             Console.Write("Haverá depósito inicial (s/n)? ");
             char resp = char.Parse(Console.ReadLine());
             if (resp == 's' || resp == 'S') {
-                Console.Write("Entre o valor de depósito inicial: ");
+                Console.Write("Entre  valor de depósito inicial: ");
                 double depositoInicial = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 conta = new ContaBancaria(numero, titular, depositoInicial);
             }
